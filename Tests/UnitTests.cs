@@ -146,7 +146,7 @@ namespace GithubActionsLab
         [TestMethod]
         public void Power_Intentional_Fail_For_CI()
         {
-            Assert.AreEqual(8, Program.Power("2", "3"));
+            Assert.AreEqual(10, Program.Power("2", "3"));
         }
     }
 }
